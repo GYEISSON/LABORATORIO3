@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="edu.eci.cvds.AppTest" time="0.04" tests="1" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="edu.eci.cvds.AppTest" time="0.022" tests="1" errors="0" skipped="0" failures="0">
   <properties>
     <property name="sun.desktop" value="windows"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -15,10 +15,10 @@
     <property name="user.timezone" value="America/Bogota"/>
     <property name="java.vm.specification.version" value="1.8"/>
     <property name="os.name" value="Windows 10"/>
-    <property name="user.country" value="US"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_201\jre\bin"/>
-    <property name="sun.java.command" value="C:\Users\2152972\AppData\Local\Temp\surefire6082650312695552184\surefirebooter7977795586562213179.jar C:\Users\2152972\AppData\Local\Temp\surefire6082650312695552184 2019-08-28T10-30-24_013-jvmRun1 surefire1412074814078396190tmp surefire_04711860418824218949tmp"/>
+    <property name="sun.java.command" value="C:\Users\2152972\AppData\Local\Temp\surefire7662166827518516583\surefirebooter7707113764254500261.jar C:\Users\2152972\AppData\Local\Temp\surefire7662166827518516583 2019-08-28T14-12-38_498-jvmRun1 surefire4874625167740877953tmp surefire_08939643476916169757tmp"/>
     <property name="surefire.test.class.path" value="C:\Users\2152972\Documents\LABORATORIO3\ClasesEquivalencia\target\test-classes;C:\Users\2152972\Documents\LABORATORIO3\ClasesEquivalencia\target\classes;C:\Users\2152972\.m2\repository\junit\junit\4.13-beta-3\junit-4.13-beta-3.jar;C:\Users\2152972\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\2152972\.m2\repository\edu\eci\cvds\aerodescuentos\1.0.0\aerodescuentos-1.0.0.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="C:\Users\2152972"/>
@@ -31,7 +31,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="C:\Users\2152972\AppData\Local\Temp\surefire6082650312695552184\surefirebooter7977795586562213179.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\2152972\AppData\Local\Temp\surefire7662166827518516583\surefirebooter7707113764254500261.jar"/>
     <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_201\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_201\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_201\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_201\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_201\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_201\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_201\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_201\jre\classes"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
@@ -41,8 +41,9 @@
     <property name="os.version" value="10.0"/>
     <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_201\jre\lib\endorsed"/>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
-    <property name="file.encoding" value="Cp1252"/>
+    <property name="file.encoding" value="UTF-8"/>
     <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="maven.ext.class.path" value="C:\Program Files\NetBeans 8.2\java\maven-nblib\netbeans-eventspy.jar"/>
     <property name="localRepository" value="C:\Users\2152972\.m2\repository"/>
     <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
     <property name="java.io.tmpdir" value="C:\Users\2152972\AppData\Local\Temp\"/>
@@ -52,7 +53,7 @@
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
     <property name="sun.os.patch.level" value=""/>
-    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_201\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Haskell\bin;C:\Program Files\Haskell Platform\8.6.3\lib\extralibs\bin;C:\Program Files\Haskell Platform\8.6.3\bin;C:\Program Files\Java\jre1.8.0_201\bin;C:\Program Files\Java\jdk1.8.0_201\bin;C:\Program Files (x86)\Python37-32\Scripts\;C:\Program Files (x86)\Python37-32\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\PuTTY\;C:\Program Files (x86)\WinSCP\;C:\Program Files\Git\cmd;C:\Program Files\Haskell Platform\8.6.3\mingw\bin;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\swipl\bin;&quot;C:\ProgramData\Oracle\Java\javapath;&quot;;C:\Android;C:\Android\tools;C:\Android\platform_tools;C:\Program Files\apache-maven-3.6.0\bin;C:\Program Files\Apache Software Foundation\Apache Maven 3.6.0\bin;C:\Program Files\Java\jdk1.8.0_201\bin;C:\Program Files\Java\jre1.8.0_201\bin;C:\Program Files\heroku\bin;C:\Users\2152972\AppData\Local\Microsoft\WindowsApps;;."/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_201\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Haskell\bin;C:\Program Files\Haskell Platform\8.6.3\lib\extralibs\bin;C:\Program Files\Haskell Platform\8.6.3\bin;C:\Program Files\Java\jre1.8.0_201\bin;C:\Program Files\Java\jdk1.8.0_201\bin;C:\Program Files (x86)\Python37-32\Scripts\;C:\Program Files (x86)\Python37-32\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\PuTTY\;C:\Program Files (x86)\WinSCP\;C:\Program Files\Git\cmd;C:\Program Files\Haskell Platform\8.6.3\mingw\bin;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\swipl\bin;&quot;C:\ProgramData\Oracle\Java\javapath;&quot;;C:\Android;C:\Android\tools;C:\Android\platform_tools;C:\Program Files\apache-maven-3.6.0\bin;C:\Program Files\Apache Software Foundation\Apache Maven 3.6.0\bin;C:\Program Files\Java\jdk1.8.0_201\bin;C:\Program Files\Java\jre1.8.0_201\bin;C:\Program Files\dotnet\;C:\Program Files (x86)\Wolfram Research\WolframScript\;C:\Program Files\heroku\bin;C:\Users\2152972\AppData\Local\Microsoft\WindowsApps;;."/>
     <property name="java.vm.info" value="mixed mode"/>
     <property name="java.vendor" value="Oracle Corporation"/>
     <property name="java.vm.version" value="25.201-b09"/>
@@ -60,5 +61,5 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="52.0"/>
   </properties>
-  <testcase name="shouldAnswerWithTrue" classname="edu.eci.cvds.AppTest" time="0.003"/>
+  <testcase name="shouldAnswerWithTrue" classname="edu.eci.cvds.AppTest" time="0"/>
 </testsuite>
