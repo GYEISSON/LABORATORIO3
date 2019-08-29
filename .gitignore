@@ -1,5 +1,6 @@
-target
-
+#excluir todos los archivos del directorio target
+target/
+#excluir todos los archivos generados por el IDE
 .classpath
 .idea
 .settings
