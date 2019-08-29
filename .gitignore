@@ -1,5 +1,7 @@
 #excluir todos los archivos del directorio target
-target/
+#target/*
+ClasesEquivalencia/target
+
 #excluir todos los archivos generados por el IDE
 .classpath
 .idea
